@@ -1,0 +1,64 @@
+.container{
+    display:grid;
+    place-items: center;
+    margin-top: 8%;
+    
+   
+}
+.btn-login{
+
+    padding: 6px;
+    width: 40%;
+    color: purple;
+    background-color: aqua;
+    border: 1px solid aqua;
+    border-radius: 4px;
+      place-items: center;
+}
+.login-form {
+    background-color:blueviolet;
+   
+    border-radius: 5px;
+    padding: 8%;
+  }
+
+.Uinput{
+    padding: 10px;
+    width:100%;
+}
+
+
+
+/* Mobile */
+@media (max-width: 768px){
+
+    .container{
+        display:grid;
+        place-items: center;
+        margin-top: 35%;
+        
+       
+    }
+    .btn-login{
+    
+        padding: 6px;
+        width: 40%;
+        color: purple;
+        background-color: aqua;
+        border: 1px solid aqua;
+        border-radius: 4px;
+          place-items: center;
+    }
+    .login-form {
+        background-color:blueviolet;
+       
+        border-radius: 5px;
+        padding: 10%;
+      }
+    
+    .Uinput{
+        padding: 10px;
+        width:90%;
+    }
+    
+}
